@@ -1,4 +1,6 @@
 
+package in.kannangce.sm;
+
 import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
