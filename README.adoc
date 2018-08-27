@@ -1,0 +1,14 @@
+# DFSM
+This is an implementation of a basic _Deterministic Finite State Machine_ with support for  discrete states and actions. The below are characteristics describes the implemented state machine,
+
+- The machine is capable being in **a** `state` at any given
+time.
+- At any state, the machine is capable of accepting an `input`
+- If an input is acceptable in a state, the result is a new state.
+- If the input is not valid in the context of the current state, exception will be thrown
+- The machine has finite set of discreet states and actions.
+- The machine will always be in a default state.
+- Each states accepts only a discreet number of actions, which is subset of all the possible actions.
+
+### Usage:
+To make use of the _DFSM_, you can just copy the class link:src/main/java/in/kannangce/sm/DFSM.java[DFSM.java], extend it and write your own state machine, by extending the methods `getInitData` and `getDefaultState`. For more help refer the link:src/test/java/in/kannangce/sm/DFSMTest.java[test class], which is an anonymous implementation of DFSM, with 2 states and actions.
