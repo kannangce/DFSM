@@ -11,4 +11,4 @@ time.
 - Each states accepts only a discreet number of actions, which is subset of all the possible actions.
 
 ### Usage:
-To make use of the _DFSM_, you can just copy the class link:src/main/java/in/kannangce/sm/DFSM.java[DFSM.java], extend it and write your own state machine, by extending the methods `getInitData` and `getDefaultState`. For more help refer the link:src/test/java/in/kannangce/sm/DFSMTest.java[test class], which is an anonymous implementation of DFSM, with 2 states and actions.
+To make use of the _DFSM_, you can just copy the class link:src/main/java/in/kannangce/sm/DFSM.java[DFSM.java], extend it and write your own state machine, by extending the methods `getInitData` and `getDefaultState`. For more help refer the link:src/test/java/in/kannangce/sm/DFSMTest.java[test class], which has an anonymous implementation of DFSM, with 2 states and actions.
